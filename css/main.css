@@ -68,6 +68,7 @@ body {
   font-family:"Nunito-Sans", "Arial", sans-serif;
   background-color: var(--body-bg);
   color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 img {
@@ -101,6 +102,8 @@ a {
 /* MAIN CONTENT  */
 .main-content {
   flex-grow: 1;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 
@@ -148,9 +151,43 @@ a {
   align-items: center;
 }
 
+.path-logo-img {
+  color:var(--text-color);
+  background-color: transparent;
+  pointer-events: none;
+
+}
+
 .logo-link-text {
   margin-left: 8px;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+}
+
+/* FILTERS  */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-search {
+  min-width: 480px;
+  padding: 18px 74px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  border:none;
+  background-color: var(--element-bg);
+  color:var(--text-color);
+}
+
+.filters-region-select {
+  min-width: 200px;
+  padding: 18px 24px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  border:none;
+  background-color: var(--element-bg);
+  color:var(--text-color);
 }
