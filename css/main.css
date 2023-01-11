@@ -106,6 +106,10 @@ a {
   padding-bottom: 48px;
 }
 
+.main-content-inner {
+  padding-top: 80px;
+}
+
 
 /* SITE HEADER  */
 .site-header {
@@ -285,4 +289,141 @@ a {
 .index-country-details-valeu {
   margin-left: 4px;
   color:var(--text-color)
+}
+
+
+/* COUNTR  */
+.country-page-back-wrapper {
+  margin-bottom: 80px;
+}
+
+.country-page-back-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 40px 10px 32px;
+  border-radius: 6px;
+  color:var(--text-color);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.country-page-back-link:hover {
+  opacity: 0.8;
+}
+
+.country-page-back-link:active {
+  opacity: 0.6;
+}
+
+.country-page-back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.country-page-back-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color);
+}
+
+
+.country-page-flag-info {
+  display: flex;
+  align-items: center;
+}
+
+.country-page-flag {
+  width: 560px;
+  height: 400px;
+  margin-right: 120px;
+  object-fit: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10.0057px;
+}
+
+/* COUNTRY PAGE INFO  */
+.country-page-info {
+  width: 598px;
+}
+
+.country-page-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color:var(--text-color);
+}
+
+.country-page-dls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 68px;
+}
+
+.contry-page-dls-left {
+  display: flex;
+}
+
+.country-page-dls {
+  margin: 0;
+}
+.country-page-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.country-page-info-title{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color:var(--text-color);
+}
+
+.countr-page-valeu {
+  margin: 0;
+}
+
+
+/* COUNTRY PAGE LIST  */
+.country-page-list {
+  display: flex;
+  align-items: center;
+}
+.country-page-list-title {
+  margin: 0;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.country-page-link-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.country-page-link {
+  min-width: 96px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius:2px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--text-color);
+  box-shadow:0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.country-page-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.country-page-link:hover {
+  opacity: 0.8;
+}
+
+.country-page-link:active {
+  opacity: 0.6;
 }
